@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --blanco: #fff;
+    --negro: black;
+    --grisOscuro: #171616;
+    --rojo:red;
+    --grisTransparente: rgba(182, 148, 148, 0.438);
+}
+
+body{
+    background: linear-gradient(var(--grisOscuro), var(--negro)) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: var(--blanco);
+}
+
+/*header*/
+
+header{
+    margin: 0 30px;
+    display: flex;
+    height: 15%;
+    align-items: center;
+}
+
+/*parte izq-nombre*/
+
+.header_name{
+flex: 3;
+font-size: 30px;
+text-align: center;
+
+}
+
+.header_name span{
+    color: var(--rojo);
+}
+
+.header_name:hover{
+text-shadow: 1px 2px 20px var(--grisTransparente);
+}
+
+
+
+
+.header_nav{
+flex: 6;
+background: violet;
+
+}
+
+.header_contact{
+flex: 2;
+background: green;
+
+}
