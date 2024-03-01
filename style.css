@@ -1,18 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-:root{
+:root {
     --blanco: #fff;
     --negro: black;
     --grisOscuro: #171616;
-    --rojo:red;
+    --rojoIntenso: red;
+    --rojo: rgb(216, 28, 28);
+    --rojoOscuro: rgb(156, 6, 6);
     --grisTransparente: rgba(182, 148, 148, 0.438);
 }
 
-body{
+body {
     background: linear-gradient(var(--grisOscuro), var(--negro)) no-repeat center;
     background-size: cover;
     height: 100vh;
@@ -21,7 +23,7 @@ body{
 
 /*header*/
 
-header{
+header {
     margin: 0 30px;
     display: flex;
     height: 15%;
@@ -31,49 +33,65 @@ header{
 
 /*parte izq-nombre*/
 
-.header_name{
-flex: 3;
-font-size: 30px;
+.header_name {
+    flex: 3;
+    font-size: 30px;
 
 
 }
 
-.header_name span{
+.header_name span {
     color: var(--rojo);
 }
 
-.header_name:hover{
-text-shadow: 1px 2px 20px var(--grisTransparente);
+.header_name:hover {
+    text-shadow: 1px 2px 20px var(--grisTransparente);
 }
 
 /*parte centro-navegacion*/
 
-.header_nav{
-flex: 6;
-background: transparent;
-margin: 0 5px;
-padding: 20px;
+.header_nav {
+    flex: 6;
+    background: transparent;
+    margin: 0 5px;
+    padding: 20px;
 }
 
-.header_nav nav ul{
+.header_nav nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
     font-size: 18px;
 }
 
-.header_nav nav ul li a{
+.header_nav nav ul li a {
     text-decoration: none;
     color: var(--blanco);
 }
 
-.header_nav nav ul li a:hover{
-    color: var(--rojo);
+.header_nav nav ul li a:hover {
+    color: var(--rojoIntenso);
+    text-shadow: 3px 3px 30px var(--blanco);
 }
 
+/*parte derecha-contacto*/
+.header_contact {
+    flex: 3;
 
-.header_contact{
-flex: 3;
-background: green;
+}
 
+.header_contact button {
+    background: var(--rojoOscuro);
+    color: var(--blanco);
+    width: 150px;
+    padding: 5px 2px;
+    border-radius: 1px solid var(--rojoOscuro);
+    border-radius: 45px;
+    font-size: 20px;
+    transition: all 0.4s ease;
+}
+
+.header_contact button:hover {
+    background: var(--rojo);
+    box-shadow: 2px 2px 20px var(--rojo);
 }
