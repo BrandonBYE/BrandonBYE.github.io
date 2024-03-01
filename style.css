@@ -26,6 +26,7 @@ header{
     display: flex;
     height: 15%;
     align-items: center;
+    text-align: center;
 }
 
 /*parte izq-nombre*/
@@ -33,7 +34,7 @@ header{
 .header_name{
 flex: 3;
 font-size: 30px;
-text-align: center;
+
 
 }
 
@@ -45,17 +46,34 @@ text-align: center;
 text-shadow: 1px 2px 20px var(--grisTransparente);
 }
 
-
-
+/*parte centro-navegacion*/
 
 .header_nav{
 flex: 6;
-background: violet;
-
+background: transparent;
+margin: 0 5px;
+padding: 20px;
 }
 
+.header_nav nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.header_nav nav ul li a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.header_nav nav ul li a:hover{
+    color: var(--rojo);
+}
+
+
 .header_contact{
-flex: 2;
+flex: 3;
 background: green;
 
 }
