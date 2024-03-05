@@ -10,43 +10,43 @@ header {
 
 /*parte izq-nombre*/
 
-.header_name {
+.header__name {
     flex: 3;
     font-size: 30px;
 
 
 }
 
-.header_name span {
+.header__name span {
     color: var(--rojo);
 }
 
-.header_name:hover {
+.header__name:hover {
     text-shadow: 1px 2px 20px var(--grisTransparente);
 }
 
 /*parte centro-navegacion*/
 
-.header_nav {
+.header__nav {
     flex: 6;
     background: transparent;
     margin: 0 5px;
     padding: 20px;
 }
 
-.header_nav nav ul {
+.header__nav nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
     font-size: 18px;
 }
 
-.header_nav nav ul li a {
+.header__nav nav ul li a {
     text-decoration: none;
     color: var(--blanco);
 }
 
-.header_nav nav ul li a:hover {
+.header__nav nav ul li a:hover {
     color: var(--rojoIntenso);
     text-shadow: 3px 3px 30px var(--blanco);
 }

@@ -1,0 +1,59 @@
+.sec_main {
+    background: transparent;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.main_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+
+}
+
+
+
+.container__letf {
+    flex: 2;
+    background: transparent;
+    margin: 200px auto;
+}
+
+.container__letf h1 span{
+    color: var(--rojoIntenso);
+
+}
+.container__letf .social__media{
+    width: 320px;
+    height: 40px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    
+}
+
+.container__letf .social__media img{
+   background-color: var(--blanco);
+    border-radius: 20px;
+    height: 50px;
+    transition: all 0.4s ease;
+}
+
+.container__letf .social__media img:hover{
+background: var(--rojoIntenso);
+transform: translateY(-7%);
+}
+
+.container__right {
+    flex: 3;
+}
+
+.container__right img{
+    height: 300px;
+    width: 100%;
+    filter: saturate(90%);
+    
+}
