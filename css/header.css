@@ -1,11 +1,12 @@
 /*header*/
 
 header {
-    margin: 0 30px;
     display: flex;
     height: 15%;
+    width: 100%;
     align-items: center;
     text-align: center;
+    background: rgba(0, 0, 0, 0.26);
 }
 
 /*parte izq-nombre*/

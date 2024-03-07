@@ -18,7 +18,7 @@
 }
 
 body {
-    background: linear-gradient(var(--grisOscuro), var(--negro)) no-repeat center;
+    background: url(https://images2.alphacoders.com/101/thumb-1920-101692.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
     color: var(--blanco);
