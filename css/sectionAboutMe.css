@@ -1,0 +1,93 @@
+.sec_aboutMe{
+    margin-top: -40px;
+}
+
+.about__container{
+    display: flex;
+    align-items: center;
+}
+
+.about__left{
+    flex: 3;
+    text-align: center;
+}
+
+.about__left span{
+    color: var(--rojo);
+    font-size: 60px;
+    font-style: bold;
+}
+
+.about__left .abo__icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about__left .abo__icons .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    transition: all 0.4s ease;
+}
+
+.about__left .abo__icons .icon:hover{
+    transform: translateY(-5%);
+
+}
+
+
+.about__right{
+    flex: 2;
+    
+}
+
+.about__right H2{
+    color: var(--rojo);
+    text-shadow: 0px 0px 5px var(--negro);
+    text-align: center;
+}
+
+.about__right p{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about__right p span{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.about__right p .html{
+    color: rgb(30, 255, 0);
+    text-shadow: 5px 3px 20px rgb(0, 0, 0);
+}
+
+
+.about__right p .python{
+    color: rgb(240, 236, 6);
+    text-shadow: 5px 3px 20px rgb(0, 0, 0);
+}
+
+
+.about__right p .java{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 3px 20px rgb(0, 0, 0);
+}
+
+.about__right p .php{
+    color: rgb(6, 185, 240);
+    text-shadow: 5px 3px 20px rgb(0, 0, 0);
+}
+
+.about__right p .laravel{
+    color: rgb(255, 87, 205);
+    text-shadow: 5px 3px 20px rgb(0, 0, 0);
+}
+

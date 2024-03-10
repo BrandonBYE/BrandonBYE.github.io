@@ -1,5 +1,6 @@
 @import url(css/header.css);
 @import url(css/sectionMain.css);
+@import url(css/sectionAboutMe.css);
 
 * {
     margin: 0;
@@ -20,6 +21,6 @@
 body {
     background: url(https://images2.alphacoders.com/101/thumb-1920-101692.jpg) no-repeat center;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     color: var(--blanco);
 }
